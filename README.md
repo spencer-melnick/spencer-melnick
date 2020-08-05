@@ -44,6 +44,14 @@
 - Simple website using only HTML and CSS for my personal portfolio
 - Nice clean design, supported on all major mobile and desktop browser
 
+### [RUIN (Robot Frontend Control Software)](https://gitlab.com/templerobotics1718/RUIN)
+
+- Graphical frontend for Temple Robotics' 2018 NASA RMC robot
+- Multithreaded control and TCP communication with robot to deliver commands and receive telemetry data with a strict bandwidth limit
+- Basic OpenGL renderer with lighting and texture support to render 3D view of autonomous telemetry data (full autonomous control was not finished, so there are only placeholder models currently)
+- Detailed control GUI developed using ImGUI
+- Cross-platform build support with CMake 
+
 ### [Ceph - BeliefCache Integration](https://github.com/spencer-melnick/ceph)
 
 - Implementation of an [experimental caching algorithm](https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage17_slides_ramljak.pdf) into the Ceph distributed filesystem
